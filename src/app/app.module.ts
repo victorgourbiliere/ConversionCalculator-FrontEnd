@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ScrollingListComponent } from './scrolling-list/scrolling-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScrollingListComponent
   ],
   imports: [
     BrowserModule,
