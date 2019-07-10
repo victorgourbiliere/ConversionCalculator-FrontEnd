@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ScrollingListComponent } from './scrolling-list/scrolling-list.component';
+import { ConversionCalculatorComponent } from './conversion-calculator/conversion-calculator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ScrollingListComponent
+    ScrollingListComponent,
+    ConversionCalculatorComponent
   ],
   imports: [
     BrowserModule,
