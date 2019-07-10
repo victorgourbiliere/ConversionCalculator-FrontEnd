@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "converstionCalculator": {
+    "conversionCalculator": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/converstionCalculator",
+            "outputPath": "dist/conversionCalculator",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "converstionCalculator:build"
+            "browserTarget": "conversionCalculator:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "converstionCalculator:build:production"
+              "browserTarget": "conversionCalculator:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "converstionCalculator:build"
+            "browserTarget": "conversionCalculator:build"
           }
         },
         "test": {
@@ -106,15 +106,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "converstionCalculator:serve"
+            "devServerTarget": "conversionCalculator:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "converstionCalculator:serve:production"
+              "devServerTarget": "conversionCalculator:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "converstionCalculator"
+  "defaultProject": "conversionCalculator"
 }

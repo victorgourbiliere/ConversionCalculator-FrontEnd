@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ConversionCalculatorServiceService} from '../services/conversion-calculator-service.service';
 
 @Component({
   selector: 'app-conversion-calculator',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConversionCalculatorComponent implements OnInit {
 
-  constructor() { }
+  //devise a convertir
+  currencyToConvert;
+
+  //devise qui convertie
+  currencyConverting;
+
+  constructor(private converstionCalculatorService: ConversionCalculatorServiceService) { }
 
   ngOnInit() {
+
+  }
+
+  calculateConversion(amount){
+
   }
 
 }
